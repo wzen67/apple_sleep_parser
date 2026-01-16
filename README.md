@@ -1,4 +1,5 @@
 # Apple Watch Sleep Data Parser
+Apple Health doesn't store sleep data separately from other health data. This script parses all of the data and creates a sleep dataset.
 
 ## You're going to need to install lxml and pandas. 
 If you prefer another XML parser, that probably works too.
@@ -12,3 +13,4 @@ Get rid of my name and put your name. The source has a weird apostrophe and an \
 
 ## Run the script
 and you should get sleep_clean.csv. I analyzed it with ChatGPT, you can analyze it how you wish.
+
